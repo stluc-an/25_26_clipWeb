@@ -19,7 +19,7 @@ Je ne résiste néanmoins pas à vous proposer ces 12 courts films musicaux.
 * [Jan Goldfuß - Foldedings VIII (2013)](https://vimeo.com/50879744)
 * [Clip de Simon Médard](https://www.youtube.com/watch?v=U5fVUzs5nWk&list=PLyxUg3JKDmVmJBj5J1YdEkE1C-qGj6yev&index=5&ab_channel=DigitalBalMusette)
 
-Nous avons 131 ans d’histoire à parcourir pour se rappeler que le film musical est fondamentalement la rencontre entre l’envie de raconter une histoire et une technique de mise en temps de l’image. Au travers de mon cours j’aimerais que nous abordions cette 132e année d'existence des films musicaux en remballant la caméra, ses bobines et cartes mémoires mais aussi l’idée même de film. Pourrions-nous produire des clips musicaux sous forme de site web, c’est la question que je me pose. C’est la contrainte que je me donne et donc celle sur laquelle je vous envoie. 
+Nous avons 132 ans d’histoire à parcourir pour se rappeler que le film musical est fondamentalement la rencontre entre l’envie de raconter une histoire et une technique de mise en temps de l’image. Au travers de mon cours j’aimerais que nous abordions cette 133e année d'existence des films musicaux en remballant la caméra, ses bobines et cartes mémoires mais aussi l’idée même de film. Pourrions-nous produire des clips musicaux sous forme de site web, c’est la question que je me pose. C’est la contrainte que je me donne et donc celle sur laquelle je vous envoie. 
 
 L’air de rien, chaque octets stocké sur des serveurs web consomme une quantité d’énergie qui pèse lourd sur nos ambitions d’un avenir paisible. Youtube pour ne citer que l’un des gros poissons de cette mer là consomme 0,46 gEqCO2/min de vidéo regardée. La taille d’un seul fichier vidéo dépasse de très très loin celle cumulée d’un fichier mp3 de quelques images jpg et de plusieurs centaines de lignes de code. Car nous ne nous passerons pas d’images animées, créons et promouvons des clipWeb pour sauver la planète.
 
@@ -51,11 +51,12 @@ Pour cet exercice tu devras produire un clipWeb musical sous forme d’une page 
 
 
 ## Calendrier prévisionnel
-* 21 février : Début du projet.
-* 28 février : Tu viens en classe avec 3 morceaux respectant les critères. On les écoute en discute et sélectionne le morceau sur lequel tu travaillera.
-* 21 mars : Fin des recherches papiers. Tu as produit les recherches graphiques qui te permettront de me poser les bonnes questions quant à la réalisation technique.
-* 25 avril : Fin de production du clip. Ton clipWeb est terminé, réalisé, visionnable dans son ensemble.
-* 13 juin : finition et publication final du clip. 
+* 6 février : Début du projet.
+* 13 février : Tu viens en classe avec 3 morceaux respectant les critères. On les écoute en discute et sélectionne le morceau sur lequel tu travaillera.
+* 21 mars : Fin des recherches papiers. Tu as produit les recherches graphiques qui te permettront de me poser les bonnes questions quant à la réalisation technique. Tu as un storyboard. 
+* 24 avril : Fin de production du clip. Ton clipWeb est terminé, réalisé, visionnable dans son ensemble.
+* 12 juin : Le clip est finalisé et publié. 
+* 15 juin : Jury quotation 
 ## Conseils
 * Choisis un morceau qui te plait (tu vas l’écouter en boucle durant toute la prod)
 * Utilise une application type TapTempo pour t’aider à comprendre la structure rythmique du morceau. Audacity peut aussi grandement t’aider à lire visuellement l’évolution d’un enregistrement sonore.
