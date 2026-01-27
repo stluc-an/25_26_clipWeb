@@ -1,0 +1,10 @@
+ssh-keygen -t rsa -b 4096
+
+pull request votre repos <- stluc-an 
+merge 
+pull
+
+git clone from git@codeberg.org:[CODEBERG_USER]/24_25_AN1_clipWeb.git
+
+
+hello
