@@ -1,6 +1,6 @@
 [Dickson Experimental Sound Film (1894)](https://www.youtube.com/watch?v=D4iDmA1seBk) est ce que l’on pourrait appeler le premier clip de l’histoire. C’est en fait le premier film sur un morceau de musique et c’est aussi le premier film sonorisé de l’histoire (30 ans avant le cinéma parlant). La musique est une ritournelle composée par un Français de l’époque, Robert Planquette. Le violoniste présent dans cet enregistrement est William Dickson, un génie, un pionnier du cinéma et l’inventeur avec Thomas Edison d’une machine à clip qu’on appelle phonokinétoscope.
 
-L’idée indispensable au développement du cinéma et du clip vidéo est née dans la tête d’une secrétaire française deux ans plus tard. Par la mise en œuvre de cette production [La Fée aux choux (1896)](https://www.youtube.com/watch?v=qS22S5MTHoI), Alice Guy devient la toute première réalisatrice de l’histoire. Il s’agissait tout simplement d’utiliser cette toute récente invention, la caméra, pour raconter des histoires.  
+L’idée indispensable au développement du cinéma et du clip vidéo est née dans la tête d’une secrétaire française deux ans plus tard. Par la mise en œuvre de cette production [La Fée aux choux (1896)](https://www.youtube.com/watch?v=2kLCaP-AxGk), Alice Guy devient la toute première réalisatrice de l’histoire. Il s’agissait tout simplement d’utiliser cette toute récente invention, la caméra, pour raconter des histoires.  
 
 Pour entrer plus en profondeur dans cette histoire je vous envoie vers wikipedia : https://fr.wikipedia.org/wiki/Clip
 Je ne résiste néanmoins pas à vous proposer ces 12 courts films musicaux.
@@ -16,7 +16,7 @@ Je ne résiste néanmoins pas à vous proposer ces 12 courts films musicaux.
 * [Mind Frame - Jake Fried 2016.](https://www.youtube.com/watch?v=FhtqcY54n68)
 * [OROGENESIS - Boris Labbé](https://www.borislabbe.com/OROGENESIS)
 * [Matière Noire - Damien Tran (2018)](https://www.damientran.com/Matiere-Noire)
-* [Jan Goldfuß - Foldedings VIII (2013)](https://vimeo.com/50879744)
+* [Jan Goldfuß - Foldedings VIII (2013)](https://cargocollective.com/goldfuss)
 * [Clip de Simon Médard](https://www.youtube.com/watch?v=U5fVUzs5nWk&list=PLyxUg3JKDmVmJBj5J1YdEkE1C-qGj6yev&index=5&ab_channel=DigitalBalMusette)
 
 Nous avons 132 ans d’histoire à parcourir pour se rappeler que le film musical est fondamentalement la rencontre entre l’envie de raconter une histoire et une technique de mise en temps de l’image. Au travers de mon cours j’aimerais que nous abordions cette 133e année d'existence des films musicaux en remballant la caméra, ses bobines et cartes mémoires mais aussi l’idée même de film. Pourrions-nous produire des clips musicaux sous forme de site web, c’est la question que je me pose. C’est la contrainte que je me donne et donc celle sur laquelle je vous envoie. 
@@ -38,12 +38,12 @@ Une autre pratique du code, de la musique et de l’image associé est l’obscu
 * [Orca by Rekka & Devine ](https://hundredrabbits.itch.io/orca)
 * [Algorave Generation | Resident Advisor](https://www.youtube.com/watch?v=S2EZqikCIfY&ab_channel=ResidentAdvisor)
 
-Tu manques d’inspiration? Commence par te détendre avec l’idée que dans le monde du film musical tout a déjà été fait. C’est un art populaire depuis [la Révolution VHS](https://www.youtube.com/watch?v=oKHIWTTgvc0) le WTF est [tout à fait envisageable](http://www.musiques-incongrues.net/forum/discussion/1676/des-clips-des-clips-et-rien-que-des-clips/#Item_0).
+Tu manques d’inspiration? Commence par te détendre avec l’idée que dans le monde du film musical tout a déjà été fait. C’est un art populaire depuis [la Révolution VHS](https://www.youtube.com/watch?v=oKHIWTTgvc0) le WTF est [tout à fait envisageable](https://www.musiques-incongrues.net/).
 
 ## Contraintes
 Pour cet exercice tu devras produire un clipWeb musical sous forme d’une page web.
 * Tu choisis un morceau de musique qui ne doit pas être déjà clippé, si il est présent sur youtube : il n’a pas de vidéo.
-* Ce morceau sélectionné doit avoir moins de 1 millions de vues sur youtube, spotify, … si on ne découvre pas de nouvelles choses, c’est pas drôle. Es-tu déjà allé trainer du côté de [PetitTube](https://www.petittube.com/) ou sur [astronaut.io](http://astronaut.io/#) des collections surprenantes de vidéos Youtube ayant 0 vue.
+* Ce morceau sélectionné doit avoir moins de 1 millions de vues sur youtube, spotify, … si on ne découvre pas de nouvelles choses, c’est pas drôle. Es-tu déjà allé trainer du côté de [wantmymtv](https://wantmymtv.vercel.app/player.html) ou sur [astronaut.io](http://astronaut.io/#) des collections surprenantes de vidéos Youtube ayant 0 vue.
 * Ce morceau dure au minimum 2 minutes (connaissez vous le morceau [You suffer de Napalm Death](https://www.youtube.com/watch?v=9Z1IGjr2cT0) ?)
 * Aucune interaction entre le spectateur et la page web n’est demandée. Nous nous intéressons ici à la relation entre le son (rythmes, mélodies) et l’image.
 * Aucun fichier vidéo ne sera accepté dans le rendu final.
@@ -66,6 +66,6 @@ Pour cet exercice tu devras produire un clipWeb musical sous forme d’une page 
   - https://www.ouiedire.net/
   - https://www.thebrainradio.com/playlists.php
   - https://secretthirteen.org/
-  - https://www.radiocampusparis.org/emission-category/amplitudes/
+  - https://www.radiocampusparis.org/emission/nR-amplitudes
   - http://www.lelaboratoire.be/
   - https://www.nts.live/
