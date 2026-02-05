@@ -43,7 +43,7 @@ function setup(){
 	createCanvas(windowWidth, windowHeight);
 	sequencer = new Sequencer(audioPath, BPM, false);
 
-	feu = new Animator (8, 1,"assets/images/feu/feu__imgNum_.jpg")
+	feu = new Animator (1, 8,"assets/images/feu/feu__imgNum_.jpg")
 	feu.setPosition(0, 0);
 	feu.setSize(windowWidth, windowHeight);
 
@@ -63,7 +63,7 @@ function setup(){
 	})
 
 
-	etoile = new Animator (3, 1,"assets/images/etoile/etoile__imgNum_.jpg")
+	etoile = new Animator (1, 3,"assets/images/etoile/etoile__imgNum_.jpg")
 	etoile.setPosition(0, 0);
 	etoile.setSize(windowWidth, windowHeight);
 
@@ -82,7 +82,7 @@ function setup(){
 		steps : [1]
 	})
 
-	scenes = new Animator (5, 1,"assets/images/scenes/scene__imgNum_.jpg")
+	scenes = new Animator (1, 5,"assets/images/scenes/scene__imgNum_.jpg")
 	scenes.setPosition(0, 0);
 	scenes.setSize(windowWidth, windowHeight);
 
@@ -101,7 +101,7 @@ function setup(){
 		steps : [1]
 	})
 
-	reflet = new Animator (10, 1,"assets/images/reflet/reflet__imgNum_.jpg")
+	reflet = new Animator (1, 10,"assets/images/reflet/reflet__imgNum_.jpg")
 	reflet.setPosition(0, 0);
 	reflet.setSize(windowWidth, windowHeight);
 
@@ -134,7 +134,7 @@ function setup(){
 	})
 
 
-	meteor = new Animator (4, 1,"assets/images/meteor/meteor__imgNum_.jpg")
+	meteor = new Animator (1, 4,"assets/images/meteor/meteor__imgNum_.jpg")
 	meteor.setPosition(0, 0);
 	meteor.setSize(windowWidth, windowHeight);
 
@@ -153,7 +153,7 @@ function setup(){
 		steps : [1]
 	})
 
-	vision = new Animator (3, 1,"assets/images/vision/vision__imgNum_.jpg")
+	vision = new Animator (1, 3,"assets/images/vision/vision__imgNum_.jpg")
 	vision.setPosition(0, 0);
 	vision.setSize(windowWidth, windowHeight);
 
@@ -174,7 +174,7 @@ function setup(){
 	
 
 
-	fleur = new Animator (4, 1,"assets/images/fleur/fleur__imgNum_.jpg")
+	fleur = new Animator (1, 4,"assets/images/fleur/fleur__imgNum_.jpg")
 	fleur.setPosition(0, 0);
 	fleur.setSize(windowWidth, windowHeight);
 
@@ -220,7 +220,7 @@ function setup(){
 	})
 
 
-	thoughts = new Animator (6, 1,"assets/images/thoughts/thought__imgNum_.jpg")
+	thoughts = new Animator (1, 6,"assets/images/thoughts/thought__imgNum_.jpg")
 	thoughts.setPosition(0, 0);
 	thoughts.setSize(windowWidth, windowHeight);
 
@@ -307,7 +307,7 @@ function setup(){
 	
 	
 
-	walk = new Animator (6, 1,"assets/images/walk/walk__imgNum_.jpg")
+	walk = new Animator (1, 6,"assets/images/walk/walk__imgNum_.jpg")
 	walk.setPosition(0, 0);
 	walk.setSize(windowWidth, windowHeight);
 
@@ -367,7 +367,7 @@ function setup(){
 
 
 
-	illu = new Animator (4, 1,"assets/images/illu/illumine__imgNum_.jpg")
+	illu = new Animator (1, 4,"assets/images/illu/illumine__imgNum_.jpg")
 	illu.setPosition(0, 0);
 	illu.setSize(windowWidth, windowHeight);
 
@@ -400,7 +400,7 @@ function setup(){
 	})
 
 
-	light = new Animator (3, 1,"assets/images/light/light__imgNum_.jpg")
+	light = new Animator (1, 3,"assets/images/light/light__imgNum_.jpg")
 	light.setPosition(0, 0);
 	light.setSize(windowWidth, windowHeight);
 
@@ -434,7 +434,7 @@ function setup(){
 
 
 
-	soleil = new Animator (3, 1,"assets/images/soleil/soleil__imgNum_.jpg")
+	soleil = new Animator (1, 3,"assets/images/soleil/soleil__imgNum_.jpg")
 	soleil.setPosition(0, 0);
 	soleil.setSize(windowWidth, windowHeight);
 
@@ -467,7 +467,7 @@ function setup(){
 	})
 
 
-	calme = new Animator (2, 1,"assets/images/calme/calme__imgNum_.jpg")
+	calme = new Animator (1, 2,"assets/images/calme/calme__imgNum_.jpg")
 	calme.setPosition(0, 0);
 	calme.setSize(windowWidth, windowHeight);
 
@@ -486,7 +486,7 @@ function setup(){
 		steps : [1]
 	})
 
-rien = new Animator (4, 1,"assets/images/rien/rien__imgNum_.jpg")
+rien = new Animator (1, 4,"assets/images/rien/rien__imgNum_.jpg")
 	rien.setPosition(0, 0);
 	rien.setSize(windowWidth, windowHeight);
 
@@ -505,7 +505,7 @@ rien = new Animator (4, 1,"assets/images/rien/rien__imgNum_.jpg")
 		steps : [1]
 	})
 
-	ded = new Animator (4, 1,"assets/images/ded/ded__imgNum_.jpg")
+	ded = new Animator (1, 4,"assets/images/ded/ded__imgNum_.jpg")
 	ded.setPosition(0, 0);
 	ded.setSize(windowWidth, windowHeight);
 
@@ -537,7 +537,7 @@ rien = new Animator (4, 1,"assets/images/rien/rien__imgNum_.jpg")
 		steps : [2]
 	})
 
-	dying2 = new Animator (8, 1,"assets/images/dying2/dying2__imgNum_.jpg")
+	dying2 = new Animator (1, 8,"assets/images/dying2/dying2__imgNum_.jpg")
 	dying2.setPosition(0, 0);
 	dying2.setSize(windowWidth, windowHeight);
 
@@ -556,7 +556,7 @@ rien = new Animator (4, 1,"assets/images/rien/rien__imgNum_.jpg")
 		steps : [2]
 	})
 
-dying = new Animator (6, 1,"assets/images/dying/dying__imgNum_.jpg")
+dying = new Animator (1, 6,"assets/images/dying/dying__imgNum_.jpg")
 	dying.setPosition(0, 0);
 	dying.setSize(windowWidth, windowHeight);
 
@@ -575,7 +575,7 @@ dying = new Animator (6, 1,"assets/images/dying/dying__imgNum_.jpg")
 		steps : [2]
 	})
 
-orange = new Animator (4, 1,"assets/images/orange/orange__imgNum_.jpg")
+orange = new Animator (1, 4,"assets/images/orange/orange__imgNum_.jpg")
 	orange.setPosition(0, 0);
 	orange.setSize(windowWidth, windowHeight);
 
@@ -594,7 +594,7 @@ orange = new Animator (4, 1,"assets/images/orange/orange__imgNum_.jpg")
 		steps : [1]
 	})
 
-	oeil = new Animator (4, 1,"assets/images/oeil/zeuy__imgNum_.jpg")
+	oeil = new Animator (1, 4,"assets/images/oeil/zeuy__imgNum_.jpg")
 	oeil.setPosition(0, 0);
 	oeil.setSize(windowWidth, windowHeight);
 
@@ -613,7 +613,7 @@ orange = new Animator (4, 1,"assets/images/orange/orange__imgNum_.jpg")
 		steps : [1,1]
 	})
 
-	tombante = new Animator (4, 1,"assets/images/tombante/tombante__imgNum_.jpg")
+	tombante = new Animator (1, 4,"assets/images/tombante/tombante__imgNum_.jpg")
 	tombante.setPosition(0, 0);
 	tombante.setSize(windowWidth, windowHeight);
 
@@ -632,7 +632,7 @@ orange = new Animator (4, 1,"assets/images/orange/orange__imgNum_.jpg")
 		steps : [1]
 	})
 
-	ville = new Animator (4, 1,"assets/images/ville/ville__imgNum_.jpg")
+	ville = new Animator (1, 4,"assets/images/ville/ville__imgNum_.jpg")
 	ville.setPosition(0, 0);
 	ville.setSize(windowWidth, windowHeight);
 
@@ -652,7 +652,7 @@ orange = new Animator (4, 1,"assets/images/orange/orange__imgNum_.jpg")
 	})
 
 
-	runningCats = new Animator (4, 1,"assets/images/runningCats/runningCats__imgNum_.jpg")
+	runningCats = new Animator (1, 4,"assets/images/runningCats/runningCats__imgNum_.jpg")
 	runningCats.setPosition(0, 0);
 	runningCats.setSize(windowWidth, windowHeight);
 
@@ -671,7 +671,7 @@ orange = new Animator (4, 1,"assets/images/orange/orange__imgNum_.jpg")
 		steps : [1]
 	})
 
-	chatsBis = new Animator (4, 1,"assets/images/chatsBis/chatsBis__imgNum_.jpg")
+	chatsBis = new Animator (1, 4,"assets/images/chatsBis/chatsBis__imgNum_.jpg")
 	chatsBis.setPosition(0, 0);
 	chatsBis.setSize(windowWidth, windowHeight);
 
@@ -705,7 +705,7 @@ orange = new Animator (4, 1,"assets/images/orange/orange__imgNum_.jpg")
 	})
 
 
-	chats = new Animator (4, 1,"assets/images/chats/chats__imgNum_.jpg")
+	chats = new Animator (1, 4,"assets/images/chats/chats__imgNum_.jpg")
 	chats.setPosition(0, 0);
 	chats.setSize(windowWidth, windowHeight);
 
@@ -727,7 +727,7 @@ orange = new Animator (4, 1,"assets/images/orange/orange__imgNum_.jpg")
 	})
 
 
-	pluie = new Animator (4, 1,"assets/images/pluie/pluie__imgNum_.jpg")
+	pluie = new Animator (1, 4,"assets/images/pluie/pluie__imgNum_.jpg")
 	pluie.setPosition(0, 0);
 	pluie.setSize(windowWidth, windowHeight);
 
@@ -761,7 +761,7 @@ sequencer.registerSequence({
 		steps : [1]
 	})
 
-	solPluie = new Animator (4, 1,"assets/images/solPluie/solPluie__imgNum_.jpg")
+	solPluie = new Animator (1, 4,"assets/images/solPluie/solPluie__imgNum_.jpg")
 	solPluie.setPosition(0, 0);
 	solPluie.setSize(windowWidth, windowHeight);
 
@@ -797,7 +797,7 @@ sequencer.registerSequence({
 	})
 
 
-arbre = new Animator (4, 1,"assets/images/arbre/arbre__imgNum_.jpg") 
+arbre = new Animator (1, 4,"assets/images/arbre/arbre__imgNum_.jpg") 
 arbre.setPosition(0, 0);
 arbre.setSize(windowWidth, windowHeight);
 

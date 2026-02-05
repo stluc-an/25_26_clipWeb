@@ -15,7 +15,7 @@ function initOutro(){
 
 /*OU_SCENE__-------------------------------------------------------------------------------------------*/
 
-OU_SCENE = new Animator(5,1,"./assets/images/6_Outro/scene_imgNum_.jpg");
+OU_SCENE = new Animator(1, 5,"./assets/images/6_Outro/scene_imgNum_.jpg");
 //console.log(BPM);
 sequencer.registerSequence({
     name : "OU_SCENE", 
@@ -38,7 +38,7 @@ sequencer.registerSequence({
 
 /*OU_CLOUDS__-----------------------------------------------------------------------------------------*/
 
-OU_CLOUDS = new Animator(5,1,"./assets/images/6_Outro/clouds_imgNum_.png"); /*PNG!!!*/
+OU_CLOUDS = new Animator(1, 5,"./assets/images/6_Outro/clouds_imgNum_.png"); /*PNG!!!*/
 //console.log(BPM);
 sequencer.registerSequence({
     name : "OU_CLOUDS", 
@@ -61,7 +61,7 @@ sequencer.registerSequence({
 
 /*OU_PUDDLE__----------------------------------------------------------------------------------------------------*/
 
-OU_PUDDLE = new Animator(5,1,"./assets/images/6_Outro/puddle_imgNum_.jpg");
+OU_PUDDLE = new Animator(1, 5,"./assets/images/6_Outro/puddle_imgNum_.jpg");
 //console.log(BPM);
 sequencer.registerSequence({
     name : "OU_PUDDLE", 
@@ -84,7 +84,7 @@ sequencer.registerSequence({
 
 /*OU_SINK__----------------------------------------------------------------------------------------------------*/
 
-OU_SINK = new Animator(5,1,"./assets/images/6_Outro/sink_imgNum_.jpg");
+OU_SINK = new Animator(1, 5,"./assets/images/6_Outro/sink_imgNum_.jpg");
 //console.log(BPM);
 sequencer.registerSequence({
     name : "OU_SINK", 
@@ -111,7 +111,7 @@ sequencer.registerSequence({
 
 /*END_DROWN__2222222222222222222222222222222------------------------------------------------------------------------------------*/
 
-END_DROWN = new Animator(5,1,"./assets/images/7_Ending/drown_imgNum_.jpg");
+END_DROWN = new Animator(1, 5,"./assets/images/7_Ending/drown_imgNum_.jpg");
 //console.log(BPM);
 sequencer.registerSequence({
     name : "END_DROWN", 
@@ -134,7 +134,7 @@ sequencer.registerSequence({
 
 /*END_TEXT__2222222222222222222222222222222------------------------------------------------------------------------------------*/
 
-END_TEXT = new Animator(5,1,"./assets/images/7_Ending/text_imgNum_.jpg");
+END_TEXT = new Animator(1, 5,"./assets/images/7_Ending/text_imgNum_.jpg");
 console.log(BPM);
 sequencer.registerSequence({
     name : "END_TEXT", 
@@ -157,7 +157,7 @@ sequencer.registerSequence({
 
 /*END_SHARK__2222222222222222222222222222222------------------------------------------------------------------------------------*/
 
-END_SHARK = new Animator(5,1,"./assets/images/7_Ending/sharks_imgNum_.jpg");
+END_SHARK = new Animator(1, 5,"./assets/images/7_Ending/sharks_imgNum_.jpg");
 //console.log(BPM);
 sequencer.registerSequence({
     name : "END_SHARK", 

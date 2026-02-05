@@ -15,7 +15,7 @@ function initIntro(){
 	/*--Intro1111111111111_blank1---------------------------------------------------------------------------------------------------------------------
 										5,1,"./assets/images/tests/test_imgNum_.jpg"*/
 	
-    Intro1_blank1 = new Animator(4,1,"./assets/images/1_intro/blank_imgNum_.jpg");
+    Intro1_blank1 = new Animator(1, 4,"./assets/images/1_intro/blank_imgNum_.jpg");
 
 	sequencer.registerSequence({
 		name : "Intro1_blank1", 
@@ -38,7 +38,7 @@ function initIntro(){
 
     /*-Intro1111111111111111_text-------------------------------------------------------------------*/
 
-	Intro1_text = new Animator(4,1,"./assets/images/1_intro/text_imgNum_.jpg");
+	Intro1_text = new Animator(1, 4,"./assets/images/1_intro/text_imgNum_.jpg");
 
 	sequencer.registerSequence({
 		name : "Intro1_text", 
@@ -61,7 +61,7 @@ function initIntro(){
 
 	/*--Intro1111111111111111_blank2------------------------------------------------------------------*/
 
-	Intro1_blank2 = new Animator(4,1,"./assets/images/1_intro/blank_imgNum_.jpg");
+	Intro1_blank2 = new Animator(1, 4,"./assets/images/1_intro/blank_imgNum_.jpg");
 
 	sequencer.registerSequence({
 		name : "Intro1_blank2", 
@@ -88,7 +88,7 @@ function initIntro(){
 
 	/*--Intro2222222222222222222222_appear------------------------------------------------------------------*/
 
-	Intro2_appear = new Animator(4,1,"./assets/images/1_intro/appear_imgNum_.jpg");
+	Intro2_appear = new Animator(1, 4,"./assets/images/1_intro/appear_imgNum_.jpg");
 
 	sequencer.registerSequence({
 		name : "Intro2_appear", 
@@ -111,7 +111,7 @@ function initIntro(){
 
 	/*--Intro2_zoom1------------------------------------------------------------------*/
 
-	Intro2_zoom1 = new Animator(4,1,"./assets/images/1_intro/zoom1__imgNum_.jpg");
+	Intro2_zoom1 = new Animator(1, 4,"./assets/images/1_intro/zoom1__imgNum_.jpg");
 
 	sequencer.registerSequence({
 		name : "Intro2_zoom1", 
@@ -134,7 +134,7 @@ function initIntro(){
 
 	/*--Intro2_zoom2------------------------------------------------------------------*/
 
-	Intro2_zoom2 = new Animator(4,1,"./assets/images/1_intro/zoom2__imgNum_.jpg");
+	Intro2_zoom2 = new Animator(1, 4,"./assets/images/1_intro/zoom2__imgNum_.jpg");
 
 	sequencer.registerSequence({
 		name : "Intro2_zoom2", 
@@ -157,7 +157,7 @@ function initIntro(){
 
 	/*--Intro2_inforest------------------------------------------------------------------*/
 
-	Intro2_inforest = new Animator(4,1,"./assets/images/1_intro/Inforest_imgNum_.jpg");
+	Intro2_inforest = new Animator(1, 4,"./assets/images/1_intro/Inforest_imgNum_.jpg");
 
 	sequencer.registerSequence({
 		name : "Intro2_inforest", 

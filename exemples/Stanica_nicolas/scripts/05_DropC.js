@@ -16,7 +16,7 @@ function initDropC(){
 
 /*KAL1__1111111111111111111111111------------------------------------------------------------------*/
 
-KAL1 = new Animator(9,1,"./assets/images/5_DropC/kal_imgNum_.jpg");
+KAL1 = new Animator(1, 9,"./assets/images/5_DropC/kal_imgNum_.jpg");
 //console.log(BPM);
 sequencer.registerSequence({
     name : "KAL1", 
@@ -39,7 +39,7 @@ sequencer.registerSequence({
 
 /*KAL2__1111111111111111111111111------------------------------------------------------------------*/
 
-KAL2 = new Animator(9,1,"./assets/images/5_DropC/2kal_imgNum_.jpg");
+KAL2 = new Animator(1, 9,"./assets/images/5_DropC/2kal_imgNum_.jpg");
 //console.log(BPM);
 sequencer.registerSequence({
     name : "KAL2", 
@@ -62,7 +62,7 @@ sequencer.registerSequence({
 
 /*KAL3__1111111111111111111111111------------------------------------------------------------------*/
 
-KAL3 = new Animator(9,1,"./assets/images/5_DropC/kal_imgNum_.jpg");
+KAL3 = new Animator(1, 9,"./assets/images/5_DropC/kal_imgNum_.jpg");
 //console.log(BPM);
 sequencer.registerSequence({
     name : "KAL3", 
@@ -85,7 +85,7 @@ sequencer.registerSequence({
 
 /*DC_MIX__1111111111111111111111111------------------------------------------------------------------*/
 
-DC_MIX = new Animator(13,1,"./assets/images/5_DropC/MIXXING/mix_imgNum_.jpg");
+DC_MIX = new Animator(1, 13,"./assets/images/5_DropC/MIXXING/mix_imgNum_.jpg");
 //console.log(BPM);
 sequencer.registerSequence({
     name : "DC_MIX", 
@@ -112,7 +112,7 @@ sequencer.registerSequence({
 
 /*DC_ROOM__2222222222222222222222------------------------------------------------------------------*/
 
-DC_ROOM = new Animator(5,1,"./assets/images/5_DropC/room_imgNum_.jpg");
+DC_ROOM = new Animator(1, 5,"./assets/images/5_DropC/room_imgNum_.jpg");
 //console.log(BPM);
 sequencer.registerSequence({
     name : "DC_ROOM", 
@@ -135,7 +135,7 @@ sequencer.registerSequence({
 
 /*DC_FOREST__2222222222222222222222------------------------------------------------------------------*/
 
-DC_FOREST = new Animator(5,1,"./assets/images/5_DropC/forest_imgNum_.jpg");
+DC_FOREST = new Animator(1, 5,"./assets/images/5_DropC/forest_imgNum_.jpg");
 //console.log(BPM);
 sequencer.registerSequence({
     name : "DC_FOREST", 
@@ -158,7 +158,7 @@ sequencer.registerSequence({
 
 /*DC_SHARK__2222222222222222222222------------------------------------------------------------------*/
 
-DC_SHARK = new Animator(5,1,"./assets/images/5_DropC/shark_imgNum_.jpg");
+DC_SHARK = new Animator(1, 5,"./assets/images/5_DropC/shark_imgNum_.jpg");
 //console.log(BPM);
 sequencer.registerSequence({
     name : "DC_SHARK", 
@@ -181,7 +181,7 @@ sequencer.registerSequence({
 
 /*DC_REUNION__2222222222222222222222------------------------------------------------------------------*/
 
-DC_REUNION = new Animator(5,1,"./assets/images/5_DropC/reunion_imgNum_.jpg");
+DC_REUNION = new Animator(1, 5,"./assets/images/5_DropC/reunion_imgNum_.jpg");
 //console.log(BPM);
 sequencer.registerSequence({
     name : "DC_REUNION", 

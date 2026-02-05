@@ -16,38 +16,38 @@ function setup(){
 	createCanvas(windowWidth, windowHeight);
 	sequencer = new Sequencer(audioPath, BPM, false);
   
-  noir = new Animator(2, 1, "./assets/images/noir/n_imgNum_.png");
-  reveil = new Animator(2, 1, "./assets/images/reveil/r_imgNum_.png");
-  kounou = new Animator(4, 1, "./assets/images/kounou/k_imgNum_.png");
-  dance = new Animator(5, 1, "./assets/images/dance/d_imgNum_.png");
-  bam = new Animator(8, 1, "./assets/images/bam/b_imgNum_.png");
-  rideau = new Animator(7, 1, "./assets/images/rideau/ri_imgNum_.png");
-  ouvrir = new Animator(9, 1, "./assets/images/ouvrir/or_imgNum_.png");
-  close = new Animator(2, 1, "./assets/images/close/c_imgNum_.png");
-  flemme = new Animator(2, 1, "./assets/images/flemme/f_imgNum_.png");
-  flemmeD = new Animator(4, 1, "./assets/images/flemmeD/fd_imgNum_.png");
-  stretch = new Animator(10, 1, "./assets/images/stretch/s_imgNum_.png");
-  flemmeT = new Animator(3, 1, "./assets/images/flemmeT/ft_imgNum_.png");
-  pow = new Animator(2, 1, "./assets/images/pow/p_imgNum_.png");
-  poof = new Animator(2, 1, "./assets/images/poof/po_imgNum_.png");
-  saut = new Animator(6, 1, "./assets/images/saut/s_imgNum_.png");
-  zap = new Animator(2, 1, "./assets/images/zap/z_imgNum_.png");
-  feuille = new Animator(2, 1, "./assets/images/feuille/f_imgNum_.png");
-  essai = new Animator(2, 1, "./assets/images/essai/e_imgNum_.png");
-  lit = new Animator(2, 1, "./assets/images/lit/l_imgNum_.png");
+  noir = new Animator(1, 2, "./assets/images/noir/n_imgNum_.png");
+  reveil = new Animator(1, 2, "./assets/images/reveil/r_imgNum_.png");
+  kounou = new Animator(1, 4, "./assets/images/kounou/k_imgNum_.png");
+  dance = new Animator(1, 5, "./assets/images/dance/d_imgNum_.png");
+  bam = new Animator(1, 8, "./assets/images/bam/b_imgNum_.png");
+  rideau = new Animator(1, 7, "./assets/images/rideau/ri_imgNum_.png");
+  ouvrir = new Animator(1, 9, "./assets/images/ouvrir/or_imgNum_.png");
+  close = new Animator(1, 2, "./assets/images/close/c_imgNum_.png");
+  flemme = new Animator(1, 2, "./assets/images/flemme/f_imgNum_.png");
+  flemmeD = new Animator(1, 4, "./assets/images/flemmeD/fd_imgNum_.png");
+  stretch = new Animator(1, 10, "./assets/images/stretch/s_imgNum_.png");
+  flemmeT = new Animator(1, 3, "./assets/images/flemmeT/ft_imgNum_.png");
+  pow = new Animator(1, 2, "./assets/images/pow/p_imgNum_.png");
+  poof = new Animator(1, 2, "./assets/images/poof/po_imgNum_.png");
+  saut = new Animator(1, 6, "./assets/images/saut/s_imgNum_.png");
+  zap = new Animator(1, 2, "./assets/images/zap/z_imgNum_.png");
+  feuille = new Animator(1, 2, "./assets/images/feuille/f_imgNum_.png");
+  essai = new Animator(1, 2, "./assets/images/essai/e_imgNum_.png");
+  lit = new Animator(1, 2, "./assets/images/lit/l_imgNum_.png");
   wii = new Animator(1, 1, "./assets/images/wii/w_imgNum_.png");
-  cafe = new Animator(7, 1, "./assets/images/cafe/c_imgNum_.png");
-  disco = new Animator(24, 1, "./assets/images/disco/d_imgNum_.png");
-  tourne = new Animator(12, 1, "./assets/images/tourne/t_imgNum_.png");
-  recap = new Animator(4, 1, "./assets/images/recap/r_imgNum_.png");
-  recapD = new Animator(4, 1, "./assets/images/recapD/rd_imgNum_.png");
-  pompe = new Animator(4, 1, "./assets/images/pompe/p_imgNum_.png");
-  altere = new Animator(4, 1, "./assets/images/altere/a_imgNum_.png");
-  tiroir = new Animator(3, 1, "./assets/images/tiroir/t_imgNum_.png");
-  masque = new Animator(6, 1, "./assets/images/masque/m_imgNum_.png");
-  cape = new Animator(9, 1, "./assets/images/cape/c_imgNum_.png");
-  partir = new Animator(32, 1, "./assets/images/partir/p_imgNum_.png");
-  hero = new Animator(3, 1, "./assets/images/hero/h_imgNum_.png");
+  cafe = new Animator(1, 7, "./assets/images/cafe/c_imgNum_.png");
+  disco = new Animator(1, 24, "./assets/images/disco/d_imgNum_.png");
+  tourne = new Animator(1, 12, "./assets/images/tourne/t_imgNum_.png");
+  recap = new Animator(1, 4, "./assets/images/recap/r_imgNum_.png");
+  recapD = new Animator(1, 4, "./assets/images/recapD/rd_imgNum_.png");
+  pompe = new Animator(1, 4, "./assets/images/pompe/p_imgNum_.png");
+  altere = new Animator(1, 4, "./assets/images/altere/a_imgNum_.png");
+  tiroir = new Animator(1, 3, "./assets/images/tiroir/t_imgNum_.png");
+  masque = new Animator(1, 6, "./assets/images/masque/m_imgNum_.png");
+  cape = new Animator(1, 9, "./assets/images/cape/c_imgNum_.png");
+  partir = new Animator(1, 32, "./assets/images/partir/p_imgNum_.png");
+  hero = new Animator(1, 3, "./assets/images/hero/h_imgNum_.png");
 
 
 
@@ -65,10 +65,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			noir.pointer++;
-			if(noir.pointer >= noir.imgs.length){
-				noir.pointer = 0;
-			}
+			noir.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -88,10 +85,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			reveil.pointer++;
-			if(reveil.pointer >= reveil.imgs.length){
-				reveil.pointer = 0;
-			}
+			reveil.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -111,10 +105,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			noir.pointer++;
-			if(noir.pointer >= noir.imgs.length){
-				noir.pointer = 0;
-			}
+			noir.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -134,10 +125,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			reveil.pointer++;
-			if(reveil.pointer >= reveil.imgs.length){
-				reveil.pointer = 0;
-			}
+			reveil.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -157,10 +145,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			noir.pointer++;
-			if(noir.pointer >= noir.imgs.length){
-				noir.pointer = 0;
-			}
+			noir.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -180,10 +165,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			reveil.pointer++;
-			if(reveil.pointer >= reveil.imgs.length){
-				reveil.pointer = 0;
-			}
+			reveil.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -203,10 +185,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			bam.pointer++;
-			if(bam.pointer >= bam.imgs.length){
-				bam.pointer = 0;
-			}
+			bam.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -226,10 +205,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			rideau.pointer++;
-			if(rideau.pointer >= rideau.imgs.length){
-				rideau.pointer = 0;
-			}
+			rideau.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -250,10 +226,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			noir.pointer++;
-			if(noir.pointer >= noir.imgs.length){
-				noir.pointer = 0;
-			}
+			noir.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -273,10 +246,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			reveil.pointer++;
-			if(reveil.pointer >= reveil.imgs.length){
-				reveil.pointer = 0;
-			}
+			reveil.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -297,10 +267,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			noir.pointer++;
-			if(noir.pointer >= noir.imgs.length){
-				noir.pointer = 0;
-			}
+			noir.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -320,10 +287,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			kounou.pointer++;
-			if(kounou.pointer >= kounou.imgs.length){
-				kounou.pointer = 0;
-			}
+			kounou.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -343,10 +307,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			rideau.pointer++;
-			if(rideau.pointer >= rideau.imgs.length){
-				rideau.pointer = 0;
-			}
+			rideau.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1]
@@ -366,10 +327,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			kounou.pointer++;
-			if(kounou.pointer >= kounou.imgs.length){
-				kounou.pointer = 0;
-			}
+			kounou.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -391,10 +349,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			ouvrir.pointer++;
-			if(ouvrir.pointer >= ouvrir.imgs.length){
-				ouvrir.pointer = 0;
-			}
+			ouvrir.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -414,10 +369,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			kounou.pointer++;
-			if(kounou.pointer >= kounou.imgs.length){
-				kounou.pointer = 0;
-			}
+			kounou.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -437,10 +389,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			ouvrir.pointer++;
-			if(ouvrir.pointer >= ouvrir.imgs.length){
-				ouvrir.pointer = 0;
-			}
+			ouvrir.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -460,10 +409,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			close.pointer++;
-			if(close.pointer >= close.imgs.length){
-				close.pointer = 0;
-			}
+			close.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -483,10 +429,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			flemme.pointer++;
-			if(flemme.pointer >= flemme.imgs.length){
-				flemme.pointer = 0;
-			}
+			flemme.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -506,10 +449,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			kounou.pointer++;
-			if(kounou.pointer >= kounou.imgs.length){
-				kounou.pointer = 0;
-			}
+			kounou.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -529,10 +469,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			flemme.pointer++;
-			if(flemme.pointer >= flemme.imgs.length){
-				flemme.pointer = 0;
-			}
+			flemme.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -552,10 +489,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			flemmeD.pointer++;
-			if(flemmeD.pointer >= flemmeD.imgs.length){
-				flemmeD.pointer = 0;
-			}
+			flemmeD.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1]
@@ -575,10 +509,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			stretch.pointer++;
-			if(stretch.pointer >= stretch.imgs.length){
-				stretch.pointer = 0;
-			}
+			stretch.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/3, 1+2/3]
@@ -598,10 +529,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			pow.pointer++;
-			if(pow.pointer >= pow.imgs.length){
-				pow.pointer = 0;
-			}
+			pow.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/3, 1+2/3]
@@ -621,10 +549,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			flemmeT.pointer++;
-			if(flemmeT.pointer >= flemmeT.imgs.length){
-				flemmeT.pointer = 0;
-			}
+			flemmeT.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/4, 1+2/4, 1+3/4]
@@ -646,10 +571,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			dance.pointer++;
-			if(dance.pointer >= dance.imgs.length){
-				dance.pointer = 0;
-			}
+			dance.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/8, 1+2/8, 1+3/8, 1+4/8, 1+5/8, 1+6/8, 1+7/8]
@@ -669,10 +591,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			flemmeT.pointer++;
-			if(flemmeT.pointer >= flemmeT.imgs.length){
-				flemmeT.pointer = 0;
-			}
+			flemmeT.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/4, 1+2/4, 1+3/4]
@@ -693,10 +612,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			dance.pointer++;
-			if(dance.pointer >= dance.imgs.length){
-				dance.pointer = 0;
-			}
+			dance.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/8, 1+2/8, 1+3/8, 1+4/8, 1+5/8, 1+6/8, 1+7/8]
@@ -716,10 +632,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			zap.pointer++;
-			if(zap.pointer >= zap.imgs.length){
-				zap.pointer = 0;
-			}
+			zap.next(true);
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/3, 1+2/3]
@@ -739,10 +652,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			cafe.pointer++;
-			if(cafe.pointer >= cafe.imgs.length){
-				cafe.pointer = 0;
-			}
+			cafe.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -763,10 +673,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			dance.pointer++;
-			if(dance.pointer >= dance.imgs.length){
-				dance.pointer = 0;
-			}
+			dance.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/8, 1+2/8, 1+3/8, 1+4/8, 1+5/8, 1+6/8, 1+7/8]
@@ -786,10 +693,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			saut.pointer++;
-			if(saut.pointer >= saut.imgs.length){
-				saut.pointer = 0;
-			}
+			saut.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/8, 1+2/8, 1+3/8, 1+4/8, 1+5/8, 1+6/8, 1+7/8]
@@ -809,10 +713,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			poof.pointer++;
-			if(poof.pointer >= poof.imgs.length){
-				poof.pointer = 0;
-			}
+			poof.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/3, 1+2/3]
@@ -832,10 +733,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			flemmeT.pointer++;
-			if(flemmeT.pointer >= flemmeT.imgs.length){
-				flemmeT.pointer = 0;
-			}
+			flemmeT.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/4, 1+2/4, 1+3/4]
@@ -856,10 +754,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			dance.pointer++;
-			if(dance.pointer >= dance.imgs.length){
-				dance.pointer = 0;
-			}
+			dance.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/8, 1+2/8, 1+3/8, 1+4/8, 1+5/8, 1+6/8, 1+7/8]
@@ -879,10 +774,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			saut.pointer++;
-			if(saut.pointer >= saut.imgs.length){
-				saut.pointer = 0;
-			}
+			saut.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/8, 1+2/8, 1+3/8, 1+4/8, 1+5/8, 1+6/8, 1+7/8]
@@ -903,10 +795,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			dance.pointer++;
-			if(dance.pointer >= dance.imgs.length){
-				dance.pointer = 0;
-			}
+			dance.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/8, 1+2/8, 1+3/8, 1+4/8, 1+5/8, 1+6/8, 1+7/8]
@@ -926,10 +815,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			wii.pointer++;
-			if(wii.pointer >= wii.imgs.length){
-				wii.pointer = 0;
-			}
+			wii.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/3, 1+2/3]
@@ -949,10 +835,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			cafe.pointer++;
-			if(cafe.pointer >= cafe.imgs.length){
-				cafe.pointer = 0;
-			}
+			cafe.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -973,10 +856,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			dance.pointer++;
-			if(dance.pointer >= dance.imgs.length){
-				dance.pointer = 0;
-			}
+			dance.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/8, 1+2/8, 1+3/8, 1+4/8, 1+5/8, 1+6/8, 1+7/8]
@@ -996,10 +876,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			saut.pointer++;
-			if(saut.pointer >= saut.imgs.length){
-				saut.pointer = 0;
-			}
+			saut.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/8, 1+2/8, 1+3/8, 1+4/8, 1+5/8, 1+6/8, 1+7/8]
@@ -1019,10 +896,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			recap.pointer++;
-			if(recap.pointer >= recap.imgs.length){
-				recap.pointer = 0;
-			}
+			recap.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1]
@@ -1042,10 +916,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			disco.pointer++;
-			if(disco.pointer >= disco.imgs.length){
-				disco.pointer = 0;
-			}
+			disco.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/12, 1+2/12, 1+3/12, 1+4/12, 1+5/12, 1+6/12, 1+7/12, 1+8/12, 1+9/12, 1+10/12, 1+11/12]
@@ -1065,10 +936,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			recapD.pointer++;
-			if(recapD.pointer >= recapD.imgs.length){
-				recapD.pointer = 0;
-			}
+			recapD.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1]
@@ -1088,10 +956,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			tourne.pointer++;
-			if(tourne.pointer >= tourne.imgs.length){
-				tourne.pointer = 0;
-			}
+			tourne.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/12, 1+2/12, 1+3/12, 1+4/12, 1+5/12, 1+6/12, 1+7/12, 1+8/12, 1+9/12, 1+10/12, 1+11/12]
@@ -1111,10 +976,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			pompe.pointer++;
-			if(pompe.pointer >= pompe.imgs.length){
-				pompe.pointer = 0;
-			}
+			pompe.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -1135,10 +997,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			disco.pointer++;
-			if(disco.pointer >= disco.imgs.length){
-				disco.pointer = 0;
-			}
+			disco.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/12, 1+2/12, 1+3/12, 1+4/12, 1+5/12, 1+6/12, 1+7/12, 1+8/12, 1+9/12, 1+10/12, 1+11/12]
@@ -1158,10 +1017,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			altere.pointer++;
-			if(altere.pointer >= altere.imgs.length){
-				altere.pointer = 0;
-			}
+			altere.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -1182,10 +1038,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			tourne.pointer++;
-			if(tourne.pointer >= tourne.imgs.length){
-				tourne.pointer = 0;
-			}
+			tourne.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/12, 1+2/12, 1+3/12, 1+4/12, 1+5/12, 1+6/12, 1+7/12, 1+8/12, 1+9/12, 1+10/12, 1+11/12]
@@ -1205,10 +1058,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			tiroir.pointer++;
-			if(tiroir.pointer >= tiroir.imgs.length){
-				tiroir.pointer = 0;
-			}
+			tiroir.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1]
@@ -1228,10 +1078,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			masque.pointer++;
-			if(masque.pointer >= masque.imgs.length){
-				masque.pointer = 0;
-			}
+			masque.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -1251,10 +1098,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			cape.pointer++;
-			if(cape.pointer >= cape.imgs.length){
-				cape.pointer = 0;
-			}
+			cape.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/2]
@@ -1274,10 +1118,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			partir.pointer++;
-			if(partir.pointer >= partir.imgs.length){
-				partir.pointer = 0;
-			}
+			partir.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/3, 1+2/3]
@@ -1297,10 +1138,7 @@ function setup(){
 		onStep : function (event){
 			//console.log(event.amount)
 			//kounou.setPointer( event.amount * 3 % 1 );
-			hero.pointer++;
-			if(hero.pointer >= hero.imgs.length){
-				hero.pointer = 0;
-			}
+			hero.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/3, 1+2/3]

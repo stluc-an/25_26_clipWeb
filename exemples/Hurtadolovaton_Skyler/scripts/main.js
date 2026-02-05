@@ -32,24 +32,24 @@ function setup(){
     createCanvas(windowWidth, windowHeight);
     sequencer = new Sequencer(audioPath, BPM,false);
 
-    trompette= new Animator (2,1,"./assets/images/trompette/t_imgNum_.png")
+    trompette= new Animator(1,2,"./assets/images/trompette/t_imgNum_.png")
    
-    trompette2=new Animator(2,1,"./assets/images/trompette2/t_imgNum_.png")
-    trompettetriple=new Animator(2,1,"./assets/images/trompettetriple/t_imgNum_.png")
-    trompettetriple2=new Animator(2,1,"./assets/images/trompettetriple2/t_imgNum_.png")
-    trompetteface=new Animator(6,1,"./assets/images/trompetteface/t_imgNum_.png")
+    trompette2=new Animator(1,2,"./assets/images/trompette2/t_imgNum_.png")
+    trompettetriple=new Animator(1,2,"./assets/images/trompettetriple/t_imgNum_.png")
+    trompettetriple2=new Animator(1,2,"./assets/images/trompettetriple2/t_imgNum_.png")
+    trompetteface=new Animator(1,6,"./assets/images/trompetteface/t_imgNum_.png")
 
-    oeuf= new Animator (6,0,"./assets/images/oeuf/oeuf000_imgNum_.png")
-    cymbale= new Animator(2,1,"./assets/images/cymbale/c_imgNum_.png")
-    cymbaledouble= new Animator(2,1,"./assets/images/cymbaledouble/c_imgNum_.png")
-    marchedebut= new Animator(30,1,"./assets/images/marchedebut/md_imgNum_.png")
-    danceuse = new Animator(2,1,"./assets/images/danceuse/d_imgNum_.png")
-    danceuse2 = new Animator(2,1,"./assets/images/danceuse2/d_imgNum_.png")
-    couplet = new Animator(30,1,"./assets/images/couplet/c_imgNum_.png")
-    dancetoucan = new Animator(2,1,"./assets/images/dancetoucan/r_imgNum_.png")
-    dancetoucan2 = new Animator(2,1,"./assets/images/dancetoucan2/r_imgNum_.png")
-    star = new Animator(3,1,"./assets/images/star/s_imgNum_.png")
-    fin = new Animator(2,1,"./assets/images/fin/f_imgNum_.png")
+    oeuf= new Animator(0,6,"./assets/images/oeuf/oeuf000_imgNum_.png")
+    cymbale= new Animator(1,2,"./assets/images/cymbale/c_imgNum_.png")
+    cymbaledouble= new Animator(1,2,"./assets/images/cymbaledouble/c_imgNum_.png")
+    marchedebut= new Animator(1,30,"./assets/images/marchedebut/md_imgNum_.png")
+    danceuse = new Animator(1,2,"./assets/images/danceuse/d_imgNum_.png")
+    danceuse2 = new Animator(1,2,"./assets/images/danceuse2/d_imgNum_.png")
+    couplet = new Animator(1,30,"./assets/images/couplet/c_imgNum_.png")
+    dancetoucan = new Animator(1,2,"./assets/images/dancetoucan/r_imgNum_.png")
+    dancetoucan2 = new Animator(1,2,"./assets/images/dancetoucan2/r_imgNum_.png")
+    star = new Animator(1,3,"./assets/images/star/s_imgNum_.png")
+    fin = new Animator(1,2,"./assets/images/fin/f_imgNum_.png")
 
 
 

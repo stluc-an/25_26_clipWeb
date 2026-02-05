@@ -12,7 +12,7 @@ function initDropB(){
 
 /*DB_PICTURE__1111111111111111111------------------------------------------------------------------*/
 
-DB_PICTURE = new Animator(5,1,"./assets/images/4_DropB/picture_imgNum_.jpg");
+DB_PICTURE = new Animator(1, 5,"./assets/images/4_DropB/picture_imgNum_.jpg");
 //console.log(BPM);
 sequencer.registerSequence({
     name : "DB_PICTURE", 
@@ -60,7 +60,7 @@ sequencer.registerSequence({
 
 /*DB_SKATE__1111111111111111111------------------------------------------------------------------*/
 
-DB_SKATE = new Animator(5,1,"./assets/images/4_DropB/skate_imgNum_.jpg");
+DB_SKATE = new Animator(1, 5,"./assets/images/4_DropB/skate_imgNum_.jpg");
 //console.log(BPM);
 sequencer.registerSequence({
     name : "DB_SKATE", 
@@ -111,7 +111,7 @@ sequencer.registerSequence({
 
 /*DB_KNEES__222222222222222222222222------------------------------------------------------------------*/
 
-DB_KNEES = new Animator(5,1,"./assets/images/4_DropB/knees_imgNum_.jpg");
+DB_KNEES = new Animator(1, 5,"./assets/images/4_DropB/knees_imgNum_.jpg");
 //console.log(BPM);
 sequencer.registerSequence({
     name : "DB_KNEES", 
@@ -157,7 +157,7 @@ sequencer.registerSequence({
 
 /*DB_REACH__222222222222222222222222------------------------------------------------------------------*/
 
-DB_REACH = new Animator(5,1,"./assets/images/4_DropB/reach_imgNum_.jpg");
+DB_REACH = new Animator(1, 5,"./assets/images/4_DropB/reach_imgNum_.jpg");
 //console.log(BPM);
 sequencer.registerSequence({
     name : "DB_REACH", 
@@ -203,7 +203,7 @@ sequencer.registerSequence({
 
 /*DB_BITE__222222222222222222222222------------------------------------------------------------------*/
 
-DB_BITE = new Animator(9,1,"./assets/images/4_DropB/Mord_imgNum_.jpg");
+DB_BITE = new Animator(1, 9,"./assets/images/4_DropB/Mord_imgNum_.jpg");
 //console.log(BPM);
 sequencer.registerSequence({
     name : "DB_BITE", 

@@ -14,7 +14,7 @@ function initDropA(){
 
     /*DA_ROOM__1111111111111111111------------------------------------------------------------------*/
 
-	DA_ROOM = new Animator(5,1,"./assets/images/3_DropA/room_imgNum_.jpg");
+	DA_ROOM = new Animator(1, 5,"./assets/images/3_DropA/room_imgNum_.jpg");
 
 	sequencer.registerSequence({
 		name : "DA_ROOM", 
@@ -37,7 +37,7 @@ function initDropA(){
 
     /*DA_FORESTFIRE__1111111111111111111------------------------------------------------------------------*/
 
-	DA_FORESTFIRE = new Animator(5,1,"./assets/images/3_DropA/forest_imgNum_.jpg");
+	DA_FORESTFIRE = new Animator(1, 5,"./assets/images/3_DropA/forest_imgNum_.jpg");
     
 	sequencer.registerSequence({
 		name : "DA_FORESTFIRE", 
@@ -60,7 +60,7 @@ function initDropA(){
 
     /*DA_HOUSEFIRE__1111111111111111111------------------------------------------------------------------*/
 
-	DA_HOUSEFIRE = new Animator(5,1,"./assets/images/3_DropA/house_imgNum_.jpg");
+	DA_HOUSEFIRE = new Animator(1, 5,"./assets/images/3_DropA/house_imgNum_.jpg");
    
 	sequencer.registerSequence({
 		name : "DA_HOUSEFIRE", 
@@ -87,7 +87,7 @@ function initDropA(){
 
     /*DA_SF1__22222222222222222222222------------------------------------------------------------------*/
 
-	DA_SF1 = new Animator(5,1,"./assets/images/3_DropA/Abovesf_imgNum_.jpg");
+	DA_SF1 = new Animator(1, 5,"./assets/images/3_DropA/Abovesf_imgNum_.jpg");
     
 	sequencer.registerSequence({
 		name : "DA_SF1", 
@@ -110,7 +110,7 @@ function initDropA(){
 
     /*DA_SF2__22222222222222222222222------------------------------------------------------------------*/
 
-	DA_SF2 = new Animator(5,1,"./assets/images/3_DropA/Sidesf_imgNum_.jpg");
+	DA_SF2 = new Animator(1, 5,"./assets/images/3_DropA/Sidesf_imgNum_.jpg");
     
 	sequencer.registerSequence({
 		name : "DA_SF2", 
@@ -133,7 +133,7 @@ function initDropA(){
 
     /*DA_PERSONFIRE__22222222222222222222222------------------------------------------------------------------*/
 
-	DA_PERSONFIRE = new Animator(5,1,"./assets/images/3_DropA/personfire_imgNum_.jpg");
+	DA_PERSONFIRE = new Animator(1, 5,"./assets/images/3_DropA/personfire_imgNum_.jpg");
     
 	sequencer.registerSequence({
 		name : "DA_PERSONFIRE", 
@@ -160,7 +160,7 @@ function initDropA(){
 
     /*STOP_STRESS__22222222222222222222222------------------------------------------------------------------*/
 
-	STOP_STRESS = new Animator(4,1,"./assets/images/3_DropA/stress_imgNum_.jpg");
+	STOP_STRESS = new Animator(1, 4,"./assets/images/3_DropA/stress_imgNum_.jpg");
     //console.log(BPM);
 	sequencer.registerSequence({
 		name : "STOP_STRESS", 

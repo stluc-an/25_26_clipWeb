@@ -44,48 +44,48 @@ function setup(){
 	createCanvas(windowWidth, windowHeight);
 	sequencer = new Sequencer(audioPath, BPM, false);
 
-	sunset = new Animator(1, 0, "./assets/images/background/sunset.png");
+	sunset = new Animator( 0,1, "./assets/images/background/sunset.png");
   sunset.show()
 	sunset.setSize(windowWidth, windowHeight)
 
-	clothes = new Animator(6, 1, "./assets/images/clothes/Clothes _imgNum_.png");
+	clothes = new Animator( 1,6, "./assets/images/clothes/Clothes _imgNum_.png");
 	clothes.show()
 	clothes.setSize(windowWidth, windowHeight)
 
-  fire = new Animator(6, 1, "./assets/images/fire/Fire _imgNum_.png");
+  fire = new Animator( 1,6, "./assets/images/fire/Fire _imgNum_.png");
   fire.show()
   fire.setPosition(820,270) 
   fire.setSize(170,120)
 
-  train = new Animator(7, 1, "./assets/images/train/Train_imgNum_.png");
+  train = new Animator( 1,7, "./assets/images/train/Train_imgNum_.png");
   train.show()
   train.setSize(windowWidth, windowHeight)
 
-  train2 = new Animator(7, 1, "./assets/images/train2/Train2 _imgNum_.png");
+  train2 = new Animator( 1,7, "./assets/images/train2/Train2 _imgNum_.png");
   train2.setSize(windowWidth, windowHeight)
 
-  bn = new Animator(5,1, "./assets/images/bn/Night_imgNum_.png");
+  bn = new Animator(1,5, "./assets/images/bn/Night_imgNum_.png");
   bn.setSize(windowWidth, windowHeight)
 
-  walk = new Animator(9,1, "./assets/images/walk/Walk_imgNum_.png");
+  walk = new Animator(1,9, "./assets/images/walk/Walk_imgNum_.png");
   walk.setSize(windowWidth, windowHeight)
 
-  day = new Animator(1,0, "./assets/images/day/Day.png")
+  day = new Animator(0,1, "./assets/images/day/Day.png")
   day.setSize(windowWidth, windowHeight)
 
-  drap = new Animator(4,1,"./assets/images/drap/Drap_imgNum_.png");
+  drap = new Animator(1,4,"./assets/images/drap/Drap_imgNum_.png");
   drap.setSize(windowWidth, windowHeight)
 
-  ginger = new Animator(4,1,"./assets/images/ginger/Ginger_imgNum_.png");
+  ginger = new Animator(1,4,"./assets/images/ginger/Ginger_imgNum_.png");
   ginger.setSize(windowWidth, windowHeight)
 
-  train3 = new Animator(7, 1,"./assets/images/train3/Train3 _imgNum_.png");
+  train3 = new Animator( 1,7,"./assets/images/train3/Train3 _imgNum_.png");
   train3.setSize(windowWidth, windowHeight)
 
   mongolfiere = new Animator(1,1,"./assets/images/mongolfiere/Mongolfiere.png");
   mongolfiere.setSize(windowWidth, windowHeight)
 
-  cat = new Animator(10, 1,"./assets/images/cat/Cat_imgNum_.png");
+  cat = new Animator( 1,10,"./assets/images/cat/Cat_imgNum_.png");
   cat.setSize(windowWidth, windowHeight)
 
 	sequencer.registerSequence({
@@ -118,8 +118,7 @@ function setup(){
 		 clothes.hide()
 		},
 		onStep : function (event){
-			clothes.pointer ++; 
-			clothes.pointer = clothes.pointer % clothes.imgs.length
+			clothes.next(true)
 		}, 
 		measure : 1, 
 		steps : [1, 1+1/12, 1+2/12, 1+3/12, 1+4/12, 1+5/12, 1+6/12, 1+7/12, 1+8/12, 1+9/12]
@@ -137,8 +136,7 @@ function setup(){
     fire.hide()
   	},
   	onStep : function (event){
-  		fire.pointer ++;
-  		fire.pointer = fire.pointer % fire.imgs.length
+  		fire.next(true)
   	},
   	measure : 1,
   	steps : [1, 1+1/12, 1+2/12, 1+3/12, 1+4/12, 1+5/12, 1+6/12, 1+7/12, 1+8/12, 1+9/12, 1+10/12, 1+11/12, 1+12/12, 1+13/12]

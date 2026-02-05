@@ -20,7 +20,7 @@ function initBuildup(){
 
     /*--CLIMAX_ABOVE11111111------------------------------------------------------------------*/
 
-	CL_above = new Animator(5,1,"./assets/images/2_buildup/above_imgNum_.jpg");
+	CL_above = new Animator(1, 5,"./assets/images/2_buildup/above_imgNum_.jpg");
 
 	sequencer.registerSequence({
 		name : "CL_above", 
@@ -42,7 +42,7 @@ function initBuildup(){
 	});
     /*--CLIMAX_SIDE11111111------------------------------------------------------------------*/
 
-	CL_side = new Animator(5,1,"./assets/images/2_buildup/side_imgNum_.jpg");
+	CL_side = new Animator(1, 5,"./assets/images/2_buildup/side_imgNum_.jpg");
 
 	sequencer.registerSequence({
 		name : "CL_side", 
@@ -65,7 +65,7 @@ function initBuildup(){
 
     /*--CLIMAX_FIREFOCUS1111111------------------------------------------------------------------*/
 
-	CL_firefocus = new Animator(5,1,"./assets/images/2_buildup/CLFire_imgNum_.jpg");
+	CL_firefocus = new Animator(1, 5,"./assets/images/2_buildup/CLFire_imgNum_.jpg");
 
 	sequencer.registerSequence({
 		name : "CL_firefocus", 
@@ -91,7 +91,7 @@ function initBuildup(){
 
     /*BU_shark2222222222222222------------------------------------------------------------------*/
 
-	BU_shark = new Animator(5,1,"./assets/images/2_buildup/shark_imgNum_.jpg");
+	BU_shark = new Animator(1, 5,"./assets/images/2_buildup/shark_imgNum_.jpg");
 
 	sequencer.registerSequence({
 		name : "BU_shark", 
@@ -114,7 +114,7 @@ function initBuildup(){
 
     /*BU_forest2222222222222222------------------------------------------------------------------*/
 
-	BU_forest = new Animator(5,1,"./assets/images/2_buildup/BUforest_imgNum_.jpg");
+	BU_forest = new Animator(1, 5,"./assets/images/2_buildup/BUforest_imgNum_.jpg");
 
 	sequencer.registerSequence({
 		name : "BU_forest", 
@@ -137,7 +137,7 @@ function initBuildup(){
 
     /*BU_reach2222222222222222------------------------------------------------------------------*/
 
-	BU_reach = new Animator(5,1,"./assets/images/2_buildup/reach_imgNum_.jpg");
+	BU_reach = new Animator(1, 5,"./assets/images/2_buildup/reach_imgNum_.jpg");
 
 	sequencer.registerSequence({
 		name : "BU_reach", 
@@ -160,7 +160,7 @@ function initBuildup(){
 
     /*BU_firefocus2222222222222222------------------------------------------------------------------*/
 
-	BU_firefocus = new Animator(5,1,"./assets/images/2_buildup/FFocus_imgNum_.jpg");
+	BU_firefocus = new Animator(1, 5,"./assets/images/2_buildup/FFocus_imgNum_.jpg");
 
 	sequencer.registerSequence({
 		name : "BU_firefocus", 
@@ -184,7 +184,7 @@ function initBuildup(){
     /*BU_MIX2222222222222222------------------------------------------------------------------*/
 
 	
-	BU_MIX = new Animator(9,1,"./assets/images/2_buildup/MIXXING/MIX_imgNum_.jpg");
+	BU_MIX = new Animator(1, 9,"./assets/images/2_buildup/MIXXING/MIX_imgNum_.jpg");
 	
 	sequencer.registerSequence({
 		name : "BU_MIX", 
@@ -207,7 +207,7 @@ function initBuildup(){
 
     /*BU_TVflash2222222222222222------------------------------------------------------------------*/
 
-	BU_TVflash = new Animator(4,1,"./assets/images/2_buildup/blank_imgNum_.jpg");
+	BU_TVflash = new Animator(1, 4,"./assets/images/2_buildup/blank_imgNum_.jpg");
 
 	sequencer.registerSequence({
 		name : "BU_TVflash", 
@@ -232,7 +232,7 @@ function initBuildup(){
 
 	/*STOPBLACKSCREEN__2222222222222222------------------------------------------------------------------*/
 
-	StopBlackScreen = new Animator(1,0,"./assets/images/2_buildup/Z_blackscreen.jpg");
+	StopBlackScreen = new Animator(0, 1,"./assets/images/2_buildup/Z_blackscreen.jpg");
 
 	sequencer.registerSequence({
 		name : "StopBlackScreen", 
