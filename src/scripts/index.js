@@ -1,9 +1,9 @@
-const repoName = "24_25_AN1_clipWeb";
+const repoName = "25_26_clipWeb";
 const ownerName = "stluc-an";
 let listPath = "clips";
 
 const requestClips = async () => {
-	const data = await fetch(`https://codeberg.org/api/v1/repos/${ownerName}/${repoName}/contents/${listPath}`)
+	const data = await fetch(`https://api.github.com/repos/${ownerName}/${repoName}/contents/${listPath}`)
 	const txt = await data.text();
 	return JSON.parse(txt) || [];
 }
@@ -17,7 +17,7 @@ const b64DecodeUnicode = (str) => {
 
 const requestTrackInfo = async (path) => {
 	// console.log(path);
-	const data = await fetch(`https://codeberg.org/api/v1/repos/${ownerName}/${repoName}/contents/${path}/README.txt?ref=pages`);
+	const data = await fetch(`https://api.github.com/repos/${ownerName}/${repoName}/contents/${path}/README.txt?ref=pages`);
 	const txt = await data.text();
 	const {content} = JSON.parse(txt);
 	return b64DecodeUnicode(content).split("\n");
