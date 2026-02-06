@@ -17,7 +17,7 @@ const b64DecodeUnicode = (str) => {
 
 const requestTrackInfo = async (path) => {
 	// console.log(path);
-	const data = await fetch(`https://api.github.com/repos/${ownerName}/${repoName}/contents/${path}/README.txt?ref=pages`);
+	const data = await fetch(`https://api.github.com/repos/${ownerName}/${repoName}/contents/${path}/README.txt?ref=main`);
 	const txt = await data.text();
 	const {content} = JSON.parse(txt);
 	return b64DecodeUnicode(content).split("\n");
