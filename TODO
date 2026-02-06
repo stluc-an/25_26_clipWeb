@@ -1,10 +1,18 @@
-ssh-keygen -t rsa -b 4096
+download and install gityup
 
-pull request votre repos <- stluc-an 
-merge 
-pull
+create account on github
 
-git clone from git@codeberg.org:[CODEBERG_USER]/24_25_AN1_clipWeb.git
+make ssh key : ssh-keygen -t rsa -b 4096
+
+add to github : https://github.com/settings/keys
+
+Fork : https://github.com/stluc-an/25_26_clipWeb
+
+git clone from git@github.com:[USER_NAME]/25_26_clipWeb.git
+
+=====
 
 
-hello
+startServer.bat OR startServer.command OR startServer.app
+
+dev.url OR exemples.url
