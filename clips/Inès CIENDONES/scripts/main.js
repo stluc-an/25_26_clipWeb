@@ -98,7 +98,7 @@ function setup(){
   savage.setSize(1400, 750);
   savage.setPosition(width/2, height/2)
 
-  theOne = new Animator(1,17,"./assets/images/theone/image (_imgNum_).png");
+  theOne = new Animator(1,17,"./assets/images/theOne/image (_imgNum_).png");
   theOne.setSize(1400, 750);
   theOne.setPosition(width/2, height/2)
 
