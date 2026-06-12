@@ -5,7 +5,7 @@
   @Last Modified time: 2026-03-06 12:34:05
 \*----------------------------------------*/
 let BPM = 180;
-let audioPath = "assets/audio/pearl.mp3";
+let audioPath = "assets/audio/Pearl.mp3";
 let titre;
 let smartphoneLyrics;
 let sequencer;
