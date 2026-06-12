@@ -97,11 +97,11 @@ function setup(){
 	Fish.setSize  (windowWidth, windowHeight);
 	Fish.setPosition (width/2, height/2)
 
-	Fish2= new Animator (1, 74, "./assets/images/Fish/Fish (_imgNum_).png")
+	Fish2= new Animator (1, 74, "./assets/images/fish/Fish (_imgNum_).png")
 	Fish2.setSize  (windowWidth, windowHeight);
 	Fish2.setPosition (width/2, height/2)
 
-	Death= new Animator (1, 103,"./assets/images/Fish/Death (_imgNum_).png")
+	Death= new Animator (1, 103,"./assets/images/fish/Death (_imgNum_).png")
 	Death.setSize  (windowWidth, windowHeight);
 	Death.setPosition (width/2, height/2)
 
