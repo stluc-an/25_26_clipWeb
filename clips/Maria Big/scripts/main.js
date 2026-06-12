@@ -61,7 +61,7 @@ let smokeTwo;
 
 function setup(){
 	createCanvas(windowWidth, windowHeight);
-	sequencer = new Sequencer(audioPath, BPM, true);
+	sequencer = new Sequencer(audioPath, BPM, false);
 
   begin1 = new Animator(1,18,"./assets/images/begin/begin_imgNum_.jpg");
   begin1.setSize(windowWidth,windowHeight);
