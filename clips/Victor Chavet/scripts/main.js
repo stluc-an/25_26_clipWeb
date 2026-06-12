@@ -35,7 +35,7 @@ let firework;
 
 function setup(){
 	createCanvas(windowWidth, windowHeight);
-	sequencer = new Sequencer(audioPath, BPM);
+	sequencer = new Sequencer(audioPath, BPM, false);
 
 	imageMode(CENTER);
 
